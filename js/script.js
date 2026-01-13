@@ -4,11 +4,11 @@ var sf = new Snowflakes({
 });
 var url_string = window.location.href; //window.location.href
 var url = new URL(url_string);
-var c = url.searchParams.get("name");
+var c = url.searchParams.get("Siti Nur Jannah");
 console.log(c);
 if (c != null) {
-    document.getElementById("name").innerHTML = c;
-    document.getElementById("nae").innerHTML = c;
+    document.getElementById("Siti Nur Jannah").innerHTML = c;
+    document.getElementById("Siti Nur Jannah").innerHTML = c;
 }
 $(".main").fadeOut(1);
 $('#play').click(function () {
